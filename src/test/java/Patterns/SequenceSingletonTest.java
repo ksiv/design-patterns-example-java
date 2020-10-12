@@ -16,7 +16,7 @@ import java.util.concurrent.TimeUnit;
 
 class SequenceSingletonTest {
     @Test
-    public void givenUnsafeSequenceGenerator_whenRaceCondition_thenUnexpectedBehavior() throws Exception {
+    public void raceConditionTest() throws Exception {
         int count = 10000;
         Set<Integer> uniqueSequences = getUniqueSequences(count);
         Assertions.assertEquals(count, uniqueSequences.size());
