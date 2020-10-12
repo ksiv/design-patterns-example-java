@@ -1,11 +1,13 @@
 package Patterns;
-/*
-* Get two different containers to fill
-* Idea -  it hides completely the logic of container production.
-*
-* */
-public class patternRunner {
-    public static void main(String[] args) {
+
+import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+class FactoryTest {
+
+    @Test
+    void fill() {
         // Old good step-by-step
         // Get a factory for liquids containers from the super-factory
         IContainerFactory liquidsContainers = new ContainerFactoriesByType().ByType("liquids");
@@ -17,6 +19,10 @@ public class patternRunner {
         abstractContainer myBox = new ContainerFactoriesByType().ByType("solids").ByName("Box");
         // fill the box
         myBox.fill();
+    }
+
+    @Test
+    void drink() {
         // casting to Cup because it has an extra method "drink"
         Cup myCup = (Cup) new ContainerFactoriesByType().ByType("liquids").ByName("Cup");
         myCup.drink();
