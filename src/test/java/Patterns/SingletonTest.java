@@ -1,5 +1,6 @@
 package Patterns;
 
+import Patterns.Singleton.SequenceSingleton;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
@@ -14,7 +15,7 @@ import java.util.concurrent.TimeUnit;
 
 
 
-class SequenceSingletonTest {
+class SingletonTest {
     @Test
     public void raceConditionTest() throws Exception {
         int count = 10000;

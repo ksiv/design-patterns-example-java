@@ -1,13 +1,16 @@
-package Patterns;
+package Patterns.Factory;
 
+import Patterns.Factory.ContainerFactoriesByType;
+import Patterns.Factory.Cup;
+import Patterns.Factory.IContainerFactory;
+import Patterns.Factory.abstractContainer;
 import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class FactoryTest {
 
     @Test
     void fill() {
+
         // Old good step-by-step
         // Get a factory for liquids containers from the super-factory
         IContainerFactory liquidsContainers = new ContainerFactoriesByType().ByType("liquids");

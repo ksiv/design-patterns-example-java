@@ -1,4 +1,5 @@
-package Patterns;
+package Patterns.Factory;
+
 /*
 *  This is liquids container Factory
 *

@@ -1,4 +1,4 @@
-package Patterns;
+package Patterns.Factory;
 /*
 * This is a "Super" Factory - because it produces other Factories
 * nothing really "super" in it just a hierarchy thing
