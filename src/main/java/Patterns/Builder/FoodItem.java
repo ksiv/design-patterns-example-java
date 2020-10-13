@@ -1,11 +1,11 @@
 package Patterns.Builder;
 
-/*
-* Builder pater is actually a flexible constructor
-* It's main purpose to avoid building many constructors with different parameters
-* If setters return "this" it also implements method chaining
-*
-* */
+/**
+* Builder pattern is actually a flexible constructor in a form of nested class
+* Its main purpose to avoid building many constructors with different parameters
+* it can be in a form of method chaining as in this example but not limited to.
+* it mimics non-necessary named unordered parameters just like in SQL
+*/
 
 public class FoodItem {
     private String name;
