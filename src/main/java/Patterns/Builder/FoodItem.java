@@ -1,5 +1,12 @@
 package Patterns.Builder;
 
+/*
+* Builder pater is actually a flexible constructor
+* It's main purpose to avoid building many constructors with different parameters
+* If setters return "this" it also implements method chaining
+*
+* */
+
 public class FoodItem {
     private String name;
     private String color;
