@@ -1,3 +1,3 @@
 # design-patterns-example-java
-
-mvn clean test
+Examples are in form of Junit 5.
+to run `mvn clean test`
