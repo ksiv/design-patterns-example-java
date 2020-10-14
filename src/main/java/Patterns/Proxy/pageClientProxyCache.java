@@ -3,7 +3,7 @@ package Patterns.Proxy;
 import java.util.HashMap;
 import java.util.Map;
 /*
-* Proxy to implement a cache 
+* Proxy to implement a cache
  * */
 
 public class pageClientProxyCache implements IPageClient {
@@ -18,6 +18,8 @@ public class pageClientProxyCache implements IPageClient {
         }else{
             // Proxy line
             page = new pageClient().getPage(name);
+            // Here data is not supposed to be modified
+            // done for the sake of demo clarity
             mapInMemoryPageCache.put(name,page+"(cached)");
             return page;
         }

@@ -1,6 +1,6 @@
 package Patterns.Builder;
 
-import Patterns.Builder.FoodItem;
+
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

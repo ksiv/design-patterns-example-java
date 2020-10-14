@@ -1,6 +1,5 @@
-package Patterns;
+package Patterns.Singleton;
 
-import Patterns.Singleton.StearingSingleton;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
