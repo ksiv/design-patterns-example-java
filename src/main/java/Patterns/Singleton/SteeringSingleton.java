@@ -9,7 +9,7 @@ package Patterns.Singleton;
 *
 * */
 
-public class StearingSingleton {
+public class SteeringSingleton {
     //  logic
     private String turnDirection;
     public synchronized void turnLeft() {
@@ -22,14 +22,14 @@ public class StearingSingleton {
         return turnDirection;
     }
     // Singleton logic below
-    private StearingSingleton(){
+    private SteeringSingleton(){
 
     }
-    private static StearingSingleton INSTANCE;
-    public synchronized static StearingSingleton getInstance() {
+    private static SteeringSingleton INSTANCE;
+    public synchronized static SteeringSingleton getInstance() {
 
         if(INSTANCE == null){
-            INSTANCE = new StearingSingleton();
+            INSTANCE = new SteeringSingleton();
         }
         return INSTANCE;
     }
