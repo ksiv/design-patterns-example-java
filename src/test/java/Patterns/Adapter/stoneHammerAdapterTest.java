@@ -22,8 +22,8 @@ class stoneHammerAdapterTest {
     @Test
     void flattenWithStone() {
         stone stoneSample = new stone();
-        stoneHammerAdapter stoneHammer  = new stoneHammerAdapter(stoneSample);
-        stoneHammer.flatten();
-        stoneHammer.nail();
+        stoneHammerAdapter stoneAsAHammer  = new stoneHammerAdapter(stoneSample);
+        stoneAsAHammer.flatten();
+        stoneAsAHammer.nail();
     }
 }

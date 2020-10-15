@@ -1,6 +1,8 @@
 package Patterns.Adapter;
 
 public class stone implements IheavyItem {
+
+
     @Override
     public void drop() {
 
