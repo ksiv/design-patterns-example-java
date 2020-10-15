@@ -11,4 +11,5 @@ Examples are in form of Junit 5.
 3. Factory (Abstract Factory + Interface Super-factory)
 4. Proxy
 5. Adapter
+6. MVC
 
