@@ -8,15 +8,22 @@ class stoneHammerAdapterTest {
     *
     *  I have a set of tools to flatten items but I need to be able to flatten
     *  target items if I do not have a tool at hand
-    *  so I adapt a heavy object like a stone as a flattening tool
+    *  so I adapt a heavy object like a stone as a flattening tool only when
+    *  required.
     *
     * */
 
     @Test
-    void flatten() {
+    void flattenWithHammerTool() {
+        hammer hammerSample = new hammer();
+        hammerSample.flatten();
+        hammerSample.nail();
+    }
+    @Test
+    void flattenWithStone() {
         stone stoneSample = new stone();
         stoneHammerAdapter stoneHammer  = new stoneHammerAdapter(stoneSample);
-        // here happens adaptation of "drop on" to "flatten"
         stoneHammer.flatten();
+        stoneHammer.nail();
     }
 }

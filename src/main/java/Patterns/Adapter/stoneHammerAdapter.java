@@ -7,16 +7,12 @@ public class stoneHammerAdapter implements IhammerTool {
     }
     @Override
     public void nail() {
-
+        stoneSample.crackShell();
     }
 
     @Override
     public void flatten() {
-        stoneSample.drop();
+        stoneSample.crackShell();
     }
 
-    @Override
-    public void crush() {
-
-    }
 }
