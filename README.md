@@ -1,7 +1,7 @@
 # design-patterns-example-java
 Maven project
 
-Examples are in form of Junit 5.
+Examples are in form of Junit 5 but they serve as usage examples not as tests.
 
 
 
