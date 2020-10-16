@@ -16,10 +16,13 @@ Examples are in form of Junit 5 but they serve as usage examples not as tests.
 # gist
 The idea of these samples to provide an easy to understand example.
 By means of:  
-• keep samples as small as possible but still big enough to frame the core idea.
+• keep samples as small as possible but still big enough to frame the core idea.  
+• the data domain is bound to everydays items, no movie/gender/hobby specific.  
+• code is ready to go, all you need is Maven  
+• structured in a fancy package tree  
 
-• the data domain is bound to everydays items, no movie-crap or gender/hobby specific.
 Overall code quality is not a goal. 
+
 
 # ideas/suggestions 
 wellcome
