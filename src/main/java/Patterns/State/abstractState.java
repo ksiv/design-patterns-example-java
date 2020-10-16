@@ -28,38 +28,26 @@ class washed extends abstractState {
         this.vegetable = vegetable  ;
     }
 
-    public chopped chop(){
-        this.vegetable.setState(Vegetable.states.chopped);
-        return new chopped(this.vegetable);
+    public cooked cook(){
+        this.vegetable.setState(Vegetable.states.cooked);
+        return new cooked(this.vegetable);
     }
 }
-class chopped extends abstractState {
+class cooked extends abstractState {
     Vegetable vegetable;
-    chopped(Vegetable vegetable){
+    cooked(Vegetable vegetable){
         this.vegetable = vegetable  ;
     }
 
-    public diced dice(){
-        this.vegetable.setState(Vegetable.states.diced);
-        return new diced(this.vegetable);
+    public served serve(){
+        this.vegetable.setState(Vegetable.states.served);
+        return new served(this.vegetable);
     }
 }
-class diced extends abstractState {
+class served extends abstractState {
     Vegetable vegetable;
-    diced(Vegetable vegetable){
+    served(Vegetable vegetable){
         this.vegetable = vegetable  ;
-    }
-
-    public minced mince(){
-        this.vegetable.setState(Vegetable.states.minced);
-        return new minced(this.vegetable);
-    }
-}
-class minced extends abstractState {
-    Vegetable vegetable;
-
-    minced(Vegetable vegetable) {
-        this.vegetable = vegetable;
     }
 
 }

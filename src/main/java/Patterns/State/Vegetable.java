@@ -6,7 +6,7 @@ package Patterns.State;
     * */
 
 public class Vegetable {
-    public enum states { unprocessed, washed, chopped, diced, minced,mashed}
+    public enum states { unprocessed, washed, cooked, served}
     private states state;
 
     Vegetable(){

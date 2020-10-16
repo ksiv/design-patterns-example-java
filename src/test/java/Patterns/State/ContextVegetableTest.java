@@ -5,7 +5,9 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 class ContextVegetableTest {
+
     /*
+    *   In this example
     *
     * */
 
@@ -16,8 +18,8 @@ class ContextVegetableTest {
         Assertions.assertEquals("washed",cucumber.getState().toString());
 
         Vegetable potato = new Vegetable();
-        new unprocessed(potato).wash().chop().dice().mince();
-        Assertions.assertEquals("minced",potato.getState().toString());
+        new unprocessed(potato).wash().cook().serve();
+        Assertions.assertEquals("served",potato.getState().toString());
 
     }
 
