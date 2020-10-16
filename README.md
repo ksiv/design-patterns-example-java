@@ -12,4 +12,5 @@ Examples are in form of Junit 5 but they serve as usage examples not as tests.
 4. Proxy
 5. Adapter
 6. MVC
+7. State
 
