@@ -7,7 +7,8 @@ import org.junit.jupiter.api.Test;
 class ContextVegetableTest {
 
     /*
-    *   In this example
+    *   In this example veggies are "context".
+    *   the rest are state wrappers which work on it
     *
     * */
 
