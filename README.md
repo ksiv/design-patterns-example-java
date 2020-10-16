@@ -4,7 +4,6 @@ Maven project
 Examples are in form of Junit 5 but they serve as usage examples not as tests.
 
 
-
 # content
 1. Singleton
 2. Builder
@@ -14,3 +13,14 @@ Examples are in form of Junit 5 but they serve as usage examples not as tests.
 6. MVC
 7. State
 
+# gist
+The idea of these samples to provide an easy to understand example.
+By means of:  
+-- keep samples as small as possible but still big enough to frame the core idea.
+-- the data domain is bound to everydays items, no movie-crap or gender/hobby specific.
+Overall code quality is not a goal. 
+
+# ideas/suggestions 
+wellcome
+
+p.s. some letters sometimes missing (mostly "w"). notebook keyboard is dying :-)
