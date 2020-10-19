@@ -13,6 +13,7 @@ Examples are in form of Junit 5 but they serve as usage examples not as tests.
 6. MVC
 7. State
 8. Strategy
+9. Observer
 
 # gist
 The idea of these samples to provide an easy to understand example.
