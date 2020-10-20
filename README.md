@@ -25,7 +25,7 @@ By means of:
 • structured in a fancy package tree  
 • Overall code quality is not a goal. For example - there are lots of duplication.
 Pieces of code are not reused across the most examples to focus on only one idea per sample.  
-• No softare examples    
+• No real software examples - this bans imagination :-)      
 
 
 # ideas/suggestions 
