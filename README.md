@@ -24,7 +24,7 @@ By means of:
 • code is ready to go, all you need are Java & Maven  
 • structured in a fancy package tree  
 • Overall code quality is not a goal. For example - there are lots of duplication.
-Pieces of code are not reused across the most examples to focus on only one idea per sample.
+Pieces of code are not reused across the most examples to focus on only one idea per sample.  
 • No softare examples    
 
 
