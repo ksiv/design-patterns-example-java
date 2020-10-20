@@ -14,6 +14,7 @@ Examples are in form of Junit 5 but they serve as usage examples not as tests.
 6. MVC
 7. State
 9. Observer
+10. Chain of Responsibility
 
 # gist
 The idea of these samples to provide an easy to understand example.
@@ -22,8 +23,9 @@ By means of:
 • the data domain is bound to everydays items, no movie/gender/hobby specific.  
 • code is ready to go, all you need are Java & Maven  
 • structured in a fancy package tree  
-
-Overall code quality is not a goal. 
+• Overall code quality is not a goal. For example - there are lots of duplication.
+Pieces of code are not reused across the most examples to focus on only one idea per sample.
+• No softare examples    
 
 
 # ideas/suggestions 
