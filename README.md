@@ -15,6 +15,7 @@ Examples are in form of Junit 5 but they serve as usage examples not as tests.
 7. State
 9. Observer
 10. Chain of Responsibility
+11. Decorator  
 
 # gist
 The idea of these samples to provide an easy to understand example.
