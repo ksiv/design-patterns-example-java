@@ -5,14 +5,15 @@ Examples are in form of Junit 5 but they serve as usage examples not as tests.
 
 
 # content
+(the most interesting go first )
 1. Singleton
-2. Builder
+2. Strategy
 3. Factory 
-8. Strategy
 4. Proxy
 5. Adapter
-6. MVC
-7. State
+6. Builder
+7. MVC
+8. State
 9. Observer
 10. Chain of Responsibility
 11. Decorator  
