@@ -18,6 +18,7 @@ Examples are in form of Junit 5 but they serve as usage examples not as tests.
 10. Chain of Responsibility
 11. Decorator  
 12. Template  
+13. Composite
 
 # gist
 The idea of these samples to provide an easy to understand example.
