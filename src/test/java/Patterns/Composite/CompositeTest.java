@@ -22,6 +22,6 @@ class CompositeTest {
         oven.add(bowl);
         oven.heat(100, 20);
         Assertions.assertEquals(potato.temperature, 100);
-        Assertions.assertEquals(carrot.minutes,20);
+        Assertions.assertEquals(carrot.minutes, 20);
     }
 }
