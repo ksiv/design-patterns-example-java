@@ -20,6 +20,7 @@ Examples are in form of Junit 5 but they serve as usage examples not as tests.
 12. Template  
 13. Composite  
 14. Prototype  
+15. Bridge  
 
 # gist
 The idea of these samples to provide an easy to understand example.
