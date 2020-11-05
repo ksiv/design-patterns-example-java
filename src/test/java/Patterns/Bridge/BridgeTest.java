@@ -6,10 +6,10 @@ import org.junit.jupiter.api.Test;
     * Bridge is same as strategy only here it is not a single encounter but a structural basis
     * Deliverables can vary as well as delivery methods
     * This is one of patters a hard to understand because not everyone ever encounters a case
-    * where it is useful.
-    *
+    * where it is useful. One may wonder, where is a bridge? Well programmers never been good
+    * in communications
     * */
-class EmailTest {
+class BridgeTest {
     @Test
     public void test(){
         Deliverable electronicMail = new Email(new ElectronicDelivery());
