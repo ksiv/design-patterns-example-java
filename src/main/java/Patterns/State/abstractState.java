@@ -14,7 +14,6 @@ class opened extends abstractState {
     String operate(Door door) {
         door.setState(new closed());
         return "closing";
-
     }
 }
 class closed extends abstractState {

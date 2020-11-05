@@ -5,6 +5,11 @@ import org.junit.jupiter.api.Test;
 
 
 class CompositeTest {
+    /*
+    *  Example of heat distribution pathway:
+    *   one oven->one bowl- two wrappings each has a vegetable inside
+    *
+    * */
 
     @Test
     void heatDistribution() {
