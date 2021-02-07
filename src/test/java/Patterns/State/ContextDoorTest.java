@@ -7,9 +7,8 @@ import org.junit.jupiter.api.Test;
 class ContextDoorTest {
 
     /*
-    *   In this example veggies are "context".
-    *   the rest are state wrappers which work on it
-    *
+    *   Here a Door is an object that can have two states (open, closed)
+    *   One method "operate" that does an action depending on current state.
     *
     * */
 
@@ -17,13 +16,12 @@ class ContextDoorTest {
     void changeOfStateChangesBehaviour(){
         Door statefulDoor = new Door();
         statefulDoor.setState(new closed());
-        Assertions.assertEquals("opening",statefulDoor.operate());
-        Assertions.assertEquals("closing",statefulDoor.operate());
+
         Assertions.assertEquals("opening",statefulDoor.operate());
 
-        Door potato = new Door();
-        //new unprocessed(potato).wash().cook().serve();
-        //Assertions.assertEquals("served",potato.getState().toString());
+        Assertions.assertEquals("closing",statefulDoor.operate());
+
+        Assertions.assertEquals("opening",statefulDoor.operate());
 
     }
 
