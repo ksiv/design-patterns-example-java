@@ -5,22 +5,21 @@ package Patterns.State;
     * */
 
 public abstract class abstractState {
-    String operate(Door door){
+    String pullTheCord(RoomLight roomLight){
         return null;
     }
 }
-class opened extends abstractState {
+class on extends abstractState {
     @Override
-    String operate(Door door) {
-        door.setState(new closed());
-        return "closing";
+    String pullTheCord(RoomLight roomLight) {
+        roomLight.setState(new off());
+        return "off";
     }
 }
-class closed extends abstractState {
+class off extends abstractState {
     @Override
-    String operate(Door door) {
-        door.setState(new opened());
-        return "opening";
+    String pullTheCord(RoomLight roomLight) {
+        roomLight.setState(new on());
+        return "on";
     }
-
 }
