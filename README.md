@@ -37,4 +37,4 @@ Pieces of code are not reused across the most examples to focus on only one idea
 # ideas/suggestions 
 wellcome
 
-p.s. some letters sometimes missing (mostly "w"). notebook keyboard is dying :-)
+
